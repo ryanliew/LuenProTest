@@ -32,3 +32,8 @@ Route::get('/heaven', function () {
 Route::get('/sea', function () {
     return view('welcome');
 });
+
+//feature/#4--Route to chaokit--Haw
+Route::get('/chowkit', function () {
+    return view('welcome');
+});
