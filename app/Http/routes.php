@@ -37,3 +37,8 @@ Route::get('/sea', function () {
 Route::get('/chowkit', function () {
     return view('welcome');
 });
+
+//feature/#6--Route to sea--Ryan
+Route::get('/sea', function () {
+    return view('welcome');
+});
