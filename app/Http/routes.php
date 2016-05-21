@@ -22,3 +22,8 @@ Route::get('/test', function () {
 Route::get('/test2', function () {
     return view('welcome');
 });
+
+//feature/#1--Route to heaven--Ryan
+Route::get('/heaven', function () {
+    return view('welcome');
+});
