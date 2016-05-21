@@ -42,3 +42,8 @@ Route::get('/chowkit', function () {
 Route::get('/sea', function () {
     return view('welcome');
 });
+
+//feature/#12--Route to kl--TH
+Route::get('/kl', function () {
+    return view('welcome');
+});
