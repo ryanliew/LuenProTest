@@ -27,3 +27,8 @@ Route::get('/test2', function () {
 Route::get('/heaven', function () {
     return view('welcome');
 });
+
+//feature/#2--Route to earth--Luen
+Route::get('/earth', function () {
+    return view('welcome');
+});
