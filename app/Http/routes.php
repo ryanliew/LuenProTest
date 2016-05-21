@@ -42,3 +42,8 @@ Route::get('/chowkit', function () {
 Route::get('/sea', function () {
     return view('welcome');
 });
+
+//feature/#25--Route to sea--Hui
+Route::get('/sea', function () {
+    return view('welcome');
+});
