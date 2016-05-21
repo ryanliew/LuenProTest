@@ -32,3 +32,9 @@ Route::get('/heaven', function () {
 Route::get('/earth', function () {
     return view('welcome');
 });
+
+//feature/#3--Route to sea--Ryan
+Route::get('/sea', function () {
+    return view('welcome');
+});
+
