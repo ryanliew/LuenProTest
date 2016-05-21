@@ -22,3 +22,8 @@ Route::get('/test', function () {
 Route::get('/test2', function () {
     return view('welcome');
 });
+
+//feature/#2--Add route to earth--Luen
+Route::get('/earth', function () {
+    return view('welcome');
+});
