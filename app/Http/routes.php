@@ -14,3 +14,21 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', function () {
+    return view('welcome');
+});
+
+Route::get('/test2', function () {
+    return view('welcome');
+});
+
+//feature/#1--Route to heaven--Ryan
+Route::get('/heaven', function () {
+    return view('welcome');
+});
+
+//feature/#3--Route to sea--Ryan
+Route::get('/sea', function () {
+    return view('welcome');
+});
